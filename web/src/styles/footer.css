@@ -1,0 +1,17 @@
+footer{
+    background-color: var(--dark-gray);
+    padding-block: 24px;
+}
+footer p{
+    font-size: 16px;
+    margin-block: 36px;
+    font-weight: 400;
+}
+footer ul{
+    padding-left: 0;
+}
+footer ul li{
+    padding-block: 6px;
+    font-size: 16px;
+    font-weight: 300;
+}

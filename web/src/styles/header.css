@@ -1,0 +1,138 @@
+.search-btn, .search-input{
+    border: none;
+    background-color: var(--light-gray-3);
+    border-radius: 0px 8px 8px 0px;
+}
+.search-input{
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+header p{
+    color: var(--dark-gray-2);
+    text-decoration: underline;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.login-btn{
+    width: 114px;
+    background-color: var(--primary);
+    border-radius: 8px;
+    border: none;
+    transition: all .2s;
+}
+.login-btn:hover{
+    background-color: var(--tertiary);
+}
+.cart-img{
+  position: relative;
+}
+.cart-img::before{
+  content: "2"; /* O número a ser exibido */
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  background-color: red; /* Cor do círculo */
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Torna o elemento circular */
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    font-weight: 600;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--dark-gray-2);
+}
+ul li a:hover{
+    color: var(--primary);
+    
+}
+ul li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -5px; /* Espaço entre o texto e a linha */
+    width: 0;
+    height: 2px; /* Espessura da linha */
+    background-color: var(--primary); /* Cor da linha */
+    transition: width 0.3s ease; /* Animação suave */
+  }
+ul li.active::after {
+    width: 100%; /* A linha aparece ao passar o mouse */
+    
+  }
+  ul li.active a {
+    color: var(--primary);
+    font-weight: 700;
+  }
+  .mobile{
+    display: none;
+  }
+  .mobile .menu{
+    background-color: #fff;
+    border: none;
+    position: relative;
+  }
+  .mobile-nav-wrapper{
+    position: absolute;
+    left: 0;
+    bottom: -3%;
+    background-color: rgba(0, 0, 0, 0.351);
+    
+  }
+  .mobile-nav{
+    background-color: var(--white);
+    height: 650px;
+  }
+  .mobile-nav ul li{
+    list-style: none;
+    text-decoration: none;
+  }
+  .mobile-nav h6{
+    font-weight: 700;
+    color: var(--dark-gray-2);
+  }
+  .open-search{
+    background-color: #ffffff;
+    border: none;
+    color: var(--primary);
+  }
+.login-area{
+    display: flex;
+    flex-direction: column;
+    
+    height: 450px;
+}
+.mobile-nav .login-btn{
+    background-color: var(--primary);
+    border-radius: 8px;
+    border: none;
+    transition: all .2s;
+    width: 114px;
+    padding-block: 6px;
+}
+
+
+
+
+
+  @media (max-width: 992px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+      display: block;
+    }
+  }

@@ -1,0 +1,15 @@
+.collection-item{
+    text-align: center;
+}
+.collection-item .icon-wrapper{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 104px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collection-item .icon-wrapper:hover svg path{
+    fill: #C92071;
+}

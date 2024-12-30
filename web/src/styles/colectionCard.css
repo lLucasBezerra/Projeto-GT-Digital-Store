@@ -1,0 +1,33 @@
+.img-wrapper img{
+    border-radius: 4px;
+}
+.img-wrapper{
+    width: 405px;
+    display: flex;
+    justify-content: center;
+}
+.img-wrapper div{
+    position: relative;
+}
+.img-wrapper button{
+    background-color: var(--light-gray-3);
+    border: none;
+    color: var(--primary);
+    font-weight: 600;
+    position: absolute;
+    bottom: 35px;
+    left: 25px;
+}
+.img-wrapper span{
+    width: 96px;
+    background-color: #E7FF86;
+    border-radius: 16px;
+    padding-inline: 15px;
+    font-weight: 600;
+    padding-block: 5px;
+    color: var(--dark-gray-2);
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}

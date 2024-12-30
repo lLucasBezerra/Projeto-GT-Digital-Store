@@ -1,14 +1,19 @@
-import Layout from "./pages/Layout"
+import HomePage from "./pages/HomePage";
+import Layout from "./pages/Layout";
+import { BrowserRouter,Router, Routes, Route } from "react-router-dom";
+import { AppRoutes } from "./Routes/Routes";
 function App() {
-  
-
   return (
     <>
-    <Layout>
-      oi
-    </Layout>
+        <BrowserRouter>
+      <Layout>
+        
+          <AppRoutes/>
+        
+      </Layout>
+        </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

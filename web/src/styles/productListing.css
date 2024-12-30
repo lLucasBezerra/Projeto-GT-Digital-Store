@@ -1,0 +1,20 @@
+.listing-page{
+    background-color: #f9f8fe;
+}
+.listing-page .price-filter{
+    width: 308px;
+    height: 60px;
+    padding-inline: 4px;
+    background-color: #f9f8fe;
+}
+.listing-page .price-filter option{
+    font-size: 16px;
+    color: var(--dark-gray-2);
+}
+.listing-page .price-filter option strong{
+    font-weight: 700;
+}
+.listing-page h6{
+    font-size: 16px;
+    color: var(--dark-gray-2);
+}
